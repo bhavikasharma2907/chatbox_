@@ -4,35 +4,35 @@ A simple rule-based chatbot built in Python that responds to user input with pre
 
 🌟 Features
 
-Friendly greetings (hello)
+-Friendly greetings (hello)
 
-Answers basic questions (how are you, name)
+-Answers basic questions (how are you, name)
 
-Farewell responses (bye)
+-Farewell responses (bye)
 
-Default responses when input is unrecognized
+-Default responses when input is unrecognized
 
-Continuous conversation until the user types exit
+-Continuous conversation until the user types exit
 
 🛠️ Technologies Used
 
-Python 3.x
+~Python 3.x
 
-Random module for selecting varied responses
+~Random module for selecting varied responses
 
 💬 How It Works
 
-Stores predefined responses in a dictionary.
+-Stores predefined responses in a dictionary.
 
-Converts user input to lowercase for easy matching.
+-Converts user input to lowercase for easy matching.
 
-Checks if any keywords match the input:
+-Checks if any keywords match the input:
 
-If yes → returns a random predefined response
+ #If yes → returns a random predefined response
 
-If no → returns a default response
+ #If no → returns a default response
 
-Loop continues until user types exit.
+-Loop continues until user types exit.
 
 💻 Sample Code
 import random
@@ -63,30 +63,31 @@ def chatbot():
             print("🤖 Chatbot:", random.choice(default_responses))
 
 chatbot()
+
 🎯 Learning Outcomes
 
-Working with Python dictionaries and lists
+-Working with Python dictionaries and lists
 
-Handling user input
+-Handling user input
 
-Using conditional statements and loops
+-Using conditional statements and loops
 
-Leveraging the random module for varied responses
+-Leveraging the random module for varied responses
 
-Understanding basic chatbot logic
+-Understanding basic chatbot logic
 
 🚀 Usage
 
-Clone this repository:
+-Clone this repository:
 
-git clone <your-repo-url>
+-git clone <your-repo-url>
 
-Run the Python script:
+-Run the Python script:
 
-python chatbot.py
+=python chatbot.py
 
 Type messages and chat with the bot. Type exit to quit.
 
 👨‍💻 Author
 
-Your Name
+Bhavika Sharma
